@@ -93,7 +93,7 @@ display: block;
 }
 .hero > h1{
     font-size: 18px;
-    width: 120px;
+    width: 150px;
     border-radius: 10px;
     padding-left: 10px;
     margin-bottom: 0;
@@ -104,7 +104,8 @@ display: block;
 }
 .subfooter{
     font-size: 14px;
-    padding-right: 15px;
 }
-
+.text-content{
+    padding: 0 10px;
+}
 }
