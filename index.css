@@ -78,12 +78,10 @@ padding-bottom: 0;
 
 @media screen and (max-width:767px ) {
 body{
-max-width: 100%;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- /* text-align: center; */
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+display: block;
 }
 .activities{
     display: grid;
@@ -91,25 +89,22 @@ max-width: 100%;
     gap: 20px;
 }
 .hero{
- background-image: url(images/torshov-image.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 767px;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 0 0 1px black;
-    flex-direction: column;
+    max-width: 100%;
 }
 .hero > h1{
     font-size: 18px;
-    width: 200px;
+    width: 120px;
     border-radius: 10px;
     padding-left: 10px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
+.hero > p {
+    font-size: 12px;
+}
+.subfooter{
+    font-size: 14px;
+    padding-right: 15px;
+}
+
 }
